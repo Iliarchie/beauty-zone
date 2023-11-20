@@ -1,0 +1,358 @@
+.banner-new {
+  margin: 0;
+  background-color: #fff !important;
+}
+
+.new-blog__inner {
+  padding: 0 0 180px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.blog-box:hover img {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+.blog-box__item {
+  max-width: 395px;
+  position: relative;
+}
+.blog-box__text {
+  padding: 20px;
+}
+.blog-box__category {
+  position: absolute;
+  bottom: 22px;
+  left: 22px;
+}
+.blog-box__category-title {
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 18.2px */
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #dcedc1;
+}
+.blog-box__item-img {
+  position: relative;
+  overflow: hidden;
+}
+.blog-box__item-img img {
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.blog-box__item-date {
+  color: #6b6b6b;
+  font-family: Zerno;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 24px; /* 150% */
+}
+.blog-box__item-title {
+  color: #1a1a1a;
+  font-family: Scotch Modern;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%; /* 29.9px */
+  padding: 20px 0 10px 0;
+}
+.blog-box__item-subtitle {
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 19.5px */
+}
+
+.blog-post__top {
+  position: relative;
+  padding: 40px 0 20px 0;
+}
+.blog-post__top img {
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(75, 75, 75, 0.6)), to(rgba(75, 75, 75, 0.6))), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  background: linear-gradient(0deg, rgba(75, 75, 75, 0.6) 0%, rgba(75, 75, 75, 0.6) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+.blog-post__info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+  max-width: 640px;
+}
+.blog-post__category {
+  display: inline-block;
+}
+.blog-post__title {
+  color: #fff;
+  text-align: center;
+  font-family: Scotch Modern;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 52.5px */
+  margin: 15px 0;
+}
+.blog-post__date {
+  position: absolute;
+  left: 72px;
+  bottom: 52px;
+  color: #fff;
+  font-family: Zerno;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 24px; /* 133.333% */
+}
+
+.share {
+  padding: 0 0 90px 0;
+}
+.share-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.share-social__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.share-social__text-share {
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 24px; /* 150% */
+  padding: 0 10px 0 0;
+}
+.share-social__item-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  border: 1px solid #ebebeb;
+  width: 145px;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.share-social__item-link p {
+  color: #3b579d;
+  text-align: center;
+  font-family: Zerno;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.skin-text {
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+}
+
+.skin-info {
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.cosmetics-info {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.cosmetics-info__question-text {
+  color: #1a1a1a;
+  font-family: Scotch Modern;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 29.9px */
+  padding: 80px 0 0 0;
+}
+.cosmetics-info__question-answer {
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+}
+
+.skincare {
+  padding: 100px 0;
+}
+
+.skincare-tips {
+  padding: 33px;
+  max-width: 780px;
+  margin: 0 auto;
+  border-radius: 22px;
+  background: #faf4de;
+}
+.skincare-tips__title {
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  padding: 0 0 20px 0;
+}
+.skincare-tips__subtitle {
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 180%;
+  max-width: 600px;
+}
+
+@media (max-width: 1000px) {
+  .new-blog__inner {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 35px;
+  }
+  .blog-box__item {
+    max-width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .new-blog__inner {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 35px;
+  }
+  .blog-box__item {
+    max-width: 300px;
+  }
+  .blog-box__item-date {
+    font-size: 13px;
+    padding: 8px 0 0 0;
+  }
+  .blog-box__item-title {
+    font-size: 22px;
+  }
+  .blog-box__item-subtitle {
+    font-size: 14px;
+  }
+  .blog-box__text {
+    padding: 0;
+  }
+  .new-blog__inner {
+    padding: 0 0 50px 0;
+  }
+  .blog-post__title {
+    font-size: 20px;
+    max-width: 410px;
+    margin: 15px auto;
+  }
+  .blog-post__date {
+    font-size: 18px;
+    bottom: 30px;
+    left: 30px;
+  }
+}
+@media (max-width: 440px) {
+  .blog-post__top img {
+    min-height: 220px;
+    border-radius: 22px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(75, 75, 75, 0.6)), to(rgba(75, 75, 75, 0.6))), url(<path-to-image>), lightgray 50%/cover no-repeat;
+    background: linear-gradient(0deg, rgba(75, 75, 75, 0.6) 0%, rgba(75, 75, 75, 0.6) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  }
+  .blog-box__category-title {
+    font-size: 12px;
+  }
+  .blog-post__title {
+    max-width: 340px;
+  }
+  .blog-post__date {
+    font-size: 12px;
+    bottom: 25px;
+    left: 25px;
+  }
+  .share {
+    padding: 0 0 40px 0;
+  }
+  .skincare {
+    padding: 45px 0 50px 0;
+  }
+  .cosmetics-info__question-text {
+    padding: 60px 0 0 0;
+  }
+  .share-social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .share-social__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+  }
+  .share-social__text-share {
+    margin: 0;
+  }
+}

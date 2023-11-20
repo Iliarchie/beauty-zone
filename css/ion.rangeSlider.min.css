@@ -1,0 +1,88 @@
+.aside-filter__drop-item {
+  .irs--flat .irs-bar {
+    top: 25px;
+    height: 4px;
+    background-color: #648864;
+  }
+
+  .irs-to {
+    visibility: visible;
+    left: 57.4444%;
+    top: -10px;
+  }
+
+  .irs-from {
+    visibility: visible;
+    left: 57.4444%;
+    top: -10px;
+  }
+
+  .irs-max {
+    display: none;
+  }
+
+  .irs-min {
+    display: none;
+  }
+
+  .irs-with-grid .irs-grid {
+    display: none;
+  }
+
+  .irs--flat .irs-line {
+    top: 25px;
+    height: 4px;
+    background-color: #e1e4e9;
+    border-radius: 4px;
+  }
+
+  .irs--flat .irs-handle > i:first-child {
+    position: absolute;
+    display: block;
+    background-image: url(../img/range.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    top: -2px;
+    left: 50%;
+    margin-left: -1px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .irs--flat .irs-handle.state_hover > i:first-child,
+  .irs--flat .irs-handle:hover > i:first-child {
+    background-color: transparent;
+  }
+
+  .irs--flat .irs-from,
+  .irs--flat .irs-to,
+  .irs--flat .irs-single {
+    color: white;
+    font-size: 10px;
+    line-height: 1.333;
+    text-shadow: none;
+    border-radius: 8px;
+    background: #faf4de;
+    padding: 4px 6px;
+  }
+
+  .irs--flat .irs-from,
+  .irs--flat .irs-to,
+  .irs--flat .irs-single {
+    color: #1a1a1a;
+    font-family: Zerno;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+  }
+
+  .irs--flat .irs-from:before,
+  .irs--flat .irs-to:before,
+  .irs--flat .irs-single:before {
+    display: none;
+  }
+}

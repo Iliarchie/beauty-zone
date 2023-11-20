@@ -1,0 +1,35 @@
+.breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.breadcrumbs li {
+  font-family: "ZernoRegular", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  color: rgba(107, 107, 107, 0.5);
+}
+.breadcrumbs li:first-child {
+  padding-right: 10px;
+}
+.breadcrumbs li:not(:first-child) {
+  padding: 0 10px 0 11px;
+  border-left: 1px solid;
+  border-left-color: rgba(107, 107, 107, 0.5);
+}
+.breadcrumbs li > a {
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+@media not all and (pointer: coarse) {
+  .breadcrumbs li > a:hover {
+    color: #6b6b6b;
+  }
+}
+@media (max-width: 992px) {
+  .breadcrumbs li {
+    font-size: 15px;
+  }
+}

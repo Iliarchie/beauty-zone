@@ -1,0 +1,410 @@
+.menu-catalog__inner {
+  top: -16px;
+}
+
+.about-welcome {
+  padding: 40px 0 90px 0;
+}
+
+.about-text {
+  max-width: 816px;
+  margin: 0 auto;
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 160%; /* 28.8px */
+  padding: 0 0 150px 0;
+  border-left: 1px solid #1a1a1a;
+  padding: 25px;
+}
+.about-text span {
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.about-advantages {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about-advantages__title {
+  color: #1a1a1a;
+  text-align: center;
+  font-family: Scotch Modern;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%; /* 48.6px */
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  padding: 150px 0 40px 0;
+}
+.about-advantages__subtitle {
+  color: #1a1a1a;
+  text-align: center;
+  font-family: Zerno;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 160%; /* 24px */
+  margin: 0 0 150px 0;
+}
+
+.about-availability {
+  max-width: 810px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 170px;
+  padding: 30px;
+  border-radius: 32px;
+  background: #faf4de;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-availability__text-title {
+  color: #1a1a1a;
+  font-family: Scotch Modern;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%; /* 29.9px */
+  padding: 0 0 10px 0;
+}
+.about-availability__text-title span {
+  color: #1a1a1a;
+  font-family: Scotch Modern;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+}
+.about-availability__text-subtitle {
+  color: #6b6b6b;
+  font-family: Zerno;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 24px */
+  max-width: 500px;
+}
+.about-availability__img {
+  position: absolute;
+  right: -185px;
+  top: -120px;
+}
+
+.delivery-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  position: relative;
+  max-width: 670px;
+  margin: 0 auto;
+  padding: 120px 0 80px 0;
+}
+.delivery-services__text-title {
+  color: #1a1a1a;
+  font-family: Scotch Modern;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%; /* 29.9px */
+}
+.delivery-services__text-title span {
+  color: #1a1a1a;
+  font-family: Scotch Modern;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 115%;
+}
+.delivery-services__text-subtitle {
+  color: #000;
+  font-family: Zerno;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 160%; /* 24px */
+  max-width: 330px;
+}
+
+.about-consultation {
+  padding: 100px 0 0 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 0 74px 0;
+}
+.about-consultation__title {
+  color: #1a1a1a;
+  text-align: center;
+  font-family: Scotch Modern;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%; /* 48.6px */
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.about-consultation__subtitle {
+  color: #6b6b6b;
+  text-align: center;
+  font-family: Scotch Modern;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 135%; /* 29.7px */
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  padding: 10px 0 35px 0;
+}
+.about-experience__description {
+  color: #1a1a1a;
+  font-family: Zerno;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 160%; /* 24px */
+  max-width: 780px;
+  margin: 0 auto;
+  border-left: 1px solid #1a1a1a;
+  padding: 0 0 0 35px;
+}
+
+.about-shop__info {
+  background: #dcedc1;
+  padding: 35px 0;
+  margin: 150px 0 80px 0;
+}
+.about-shop__info p {
+  max-width: 630px;
+  margin: 0 auto;
+  color: #324532;
+  text-align: center;
+  font-family: Scotch Modern;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 40px */
+}
+
+.about-summary {
+  padding: 0 0 150px 0;
+}
+.about-summary__inner {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+.about-summary__text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: 0;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about-summary__text-title {
+  color: #324532;
+  font-family: Scotch Modern;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 54.6px */
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+}
+.about-summary__text-subtitle {
+  color: #324532;
+  text-align: center;
+  font-family: Scotch Modern;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 125%; /* 40px */
+}
+.about-summary__text-description {
+  color: #324532;
+  text-align: center;
+  font-family: Zerno;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 125%; /* 25px */
+}
+@media (max-width: 768px) {
+  .about-advantages {
+    max-width: 500px;
+  }
+  .about-text {
+    font-size: 16px;
+  }
+  .about-advantages__title {
+    margin: 0 auto;
+    font-size: 22px;
+    padding: 90px 0 30px 0;
+  }
+  .about-availability {
+    max-width: 500px;
+  }
+  .about-availability__text-subtitle {
+    max-width: 370px;
+    font-size: 14px;
+  }
+  .about-availability__img {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+    top: -32px;
+    left: 350px;
+  }
+  .delivery-services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 25px;
+  }
+  .delivery-services__text {
+    text-align: center;
+  }
+  .delivery-services__text-subtitle {
+    font-size: 14px;
+    max-width: 270px;
+    margin: 0 auto;
+  }
+  .about-consultation__title {
+    font-size: 26px;
+  }
+  .about-consultation__subtitle {
+    font-size: 18px;
+  }
+  .about-experience__description {
+    max-width: 565px;
+    margin: 0 auto;
+  }
+  .about-shop__info {
+    margin: 60px 0 90px 0;
+  }
+  .about-shop__info p {
+    font-size: 22px;
+  }
+  .about-summary {
+    padding: 0 0 40px 0;
+  }
+  .about-summary__text-subtitle {
+    font-size: 24px;
+  }
+  .about-summary__text-title {
+    font-size: 32px;
+  }
+  .about-summary__text-description {
+    font-size: 16px;
+    width: 400px;
+  }
+  .about-advantages__subtitle {
+    margin: 0 0 32px 0;
+    padding: 0 0 32px 0;
+  }
+}
+@media (max-width: 440px) {
+  .about-welcome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 20px 0 70px 0;
+  }
+  .about-consultation {
+    padding: 83px 0 80px 0;
+  }
+  .about-summary__text-description {
+    font-size: 16px;
+    width: 315px;
+  }
+  .about-summary__text-btn {
+    min-width: 240px;
+    padding: 12px 0;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+  }
+  .delivery-services {
+    padding: 180px 0 0 0;
+  }
+  .about-consultation {
+    padding: 110px 0 80px 0;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .delivery-services__text {
+    text-align: left;
+  }
+  .about-availability {
+    padding: 30px 22px;
+    height: 240px;
+  }
+  .about-availability__img {
+    width: 100%;
+    height: 100%;
+    top: 74px;
+    left: 169px;
+  }
+  .about-availability__text-subtitle {
+    width: 214px;
+  }
+  .about-shop__info {
+    padding: 44px 44px;
+  }
+  .about-availability__text-title {
+    font-size: 24px;
+  }
+}

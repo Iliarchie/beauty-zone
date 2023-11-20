@@ -1,0 +1,17 @@
+.like-product__cards {
+  margin: 32px 0 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 42px;
+}
+@media (max-width: 440px) {
+  .like-product__cards {
+    margin: 32px 0 40px 0;
+  }
+}
